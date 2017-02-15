@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlueVC" customModule="no_storyboards" customModuleProvider="target">
+            <connections>
+                <outlet property="printLbl" destination="QdW-qS-KmN" id="6Qe-jV-baN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdW-qS-KmN">
+                    <rect key="frame" x="178" y="146" width="244" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Ju1-Fn-bm7"/>
+                        <constraint firstAttribute="width" constant="244" id="g6G-NP-AWT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.037672244792025571" green="0.074671566510353171" blue="0.5287402849740932" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QdW-qS-KmN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7h8-h3-4V5"/>
+                <constraint firstItem="QdW-qS-KmN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="QHf-tC-6Vr"/>
+            </constraints>
+            <point key="canvasLocation" x="148" y="101"/>
+        </view>
+    </objects>
+</document>

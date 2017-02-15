@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let newVC = NewVC(nibName: "NewVC", bundle: nil) // initializing xib
+        window?.rootViewController = newVC // set the root view controller of the window
+        window?.makeKeyAndVisible() // shows the window in front of other windows
+        
         return true
     }
 

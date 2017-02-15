@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewVC" customModule="no_storyboards" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="lTu-7s-v49" id="eug-37-FIo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lTu-7s-v49">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="no storyboard, just a xib file ;)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUe-9Q-Nka">
+                    <rect key="frame" x="180" y="187" width="241" height="97"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJL-CS-sXg">
+                    <rect key="frame" x="263" y="309" width="74" height="30"/>
+                    <state key="normal" title="Click me!">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loadBlueView:" destination="-1" eventType="touchUpInside" id="Fb7-Lf-Z1Q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0047851792729999999" green="0.46674627590000001" blue="0.007427973123" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jUe-9Q-Nka" firstAttribute="centerX" secondItem="lTu-7s-v49" secondAttribute="centerX" id="FIv-iV-tqZ"/>
+                <constraint firstItem="TJL-CS-sXg" firstAttribute="centerX" secondItem="lTu-7s-v49" secondAttribute="centerX" id="S6w-l6-gtD"/>
+            </constraints>
+            <point key="canvasLocation" x="391" y="334"/>
+        </view>
+    </objects>
+</document>
